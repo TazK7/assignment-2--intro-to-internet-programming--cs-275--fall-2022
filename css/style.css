@@ -1,3 +1,8 @@
-*{
-  line-height: 18px;
+.arrow{
+  width: 90px;
+  height: 90px;
+}
+
+h1{
+  text-align: center;
 }
