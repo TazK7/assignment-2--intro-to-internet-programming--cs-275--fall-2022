@@ -3,6 +3,13 @@
   height: 90px;
 }
 
+#main-container{
+  width: 800px;
+  height: 450px;
+  background-color: lightgray;
+  overflow: hidden;
+}
+
 h1{
   text-align: center;
 }
