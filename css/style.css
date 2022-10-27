@@ -10,6 +10,11 @@
   overflow: hidden;
 }
 
+.colors{
+  padding: 15px 18px;
+  float: left;
+}
+
 h1{
   text-align: center;
 }
