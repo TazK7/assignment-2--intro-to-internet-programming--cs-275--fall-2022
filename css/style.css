@@ -3,6 +3,11 @@
   height: 90px;
 }
 
+button{
+  align-items: center;
+  display: flex;
+}
+
 .slide-show{
   width: 800px;
   height: 450px;
@@ -35,9 +40,26 @@ h1{
 
 body { 
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   font-size: 16px;
   line-height: 18px;
   overflow: hidden;
   align-items: center;
+}
+
+p {
+  margin-right: 40px;
+  height: 400px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 38.4px;
+  text-align: center;
+}
+
+h2 {
+  line-height: 18px;
+  padding-top: 5px;
+  height: 24px;
 }
