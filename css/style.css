@@ -3,16 +3,12 @@
   height: 90px;
 }
 
-button{
-  align-items: center;
-  display: flex;
-}
-
-.slide-show{
-  width: 800px;
-  height: 450px;
-  background-color: lightgray;
+#carousel-viewport{
+  width: 526px;
+  height: 280px;
+  margin: 0 auto;
   overflow: hidden;
+  position: relative;
 }
 
 .colors{
