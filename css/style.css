@@ -1,6 +1,15 @@
 .arrow{
-  width: 90px;
-  height: 90px;
+  width: 50px;
+}
+
+#left-arrow{
+  top: 100px;
+  left: -40px;
+}
+
+#right-arrow{
+  top: 100px;
+  right: -35px;
 }
 
 #carousel-viewport{
@@ -9,6 +18,27 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+}
+
+#carousel{
+  position: absolute;
+  left: 0;
+  transition: 250ms;
+  background-color: lightslategray;
+}
+
+/*a{
+  display: none;
+  position: absolute;
+  top: 102px;
+  z-index: 1;
+  width: 64px;
+  height: 76px;
+  background-color: rgba(254, 254, 254, .9);
+}*/
+
+a img{
+  position: absolute;
 }
 
 .colors{
@@ -28,11 +58,6 @@ h1{
   width: fit-content;
 }
 
-.images{
-  width: 800px;
-  height: 550px;
-}
-
 body { 
   display: flex;
   flex-direction: column; 
@@ -40,11 +65,6 @@ body {
   line-height: 18px;
   overflow: hidden;
   align-items: center;
-}
-
-p {
-  margin-right: 40px;
-  height: 400px;
 }
 
 h1 {
